@@ -12,6 +12,10 @@ namespace Grades
             book.AddGrade(91);
             book.AddGrade(89.9f);
 
+            // book2 = new GradeBook(); -->> book2 = 75
+            var book2 = book; //-->> book2 = [91, 89.9f] 
+            book2.AddGrade(75);
+
             Console.ReadKey();
         }
     }
