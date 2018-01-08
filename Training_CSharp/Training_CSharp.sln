@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Modulo", "1 - Modulo", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{826507FA-68D8-410E-8448-702B19280F3A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Modulo", "2 - Modulo", "{77EDA32E-6E1C-4206-953D-A143CF806F54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grades", "Grades\Grades.csproj", "{9D5A0843-D045-4AC5-BCAB-83511984CA1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{826507FA-68D8-410E-8448-702B19280F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{826507FA-68D8-410E-8448-702B19280F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{826507FA-68D8-410E-8448-702B19280F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D5A0843-D045-4AC5-BCAB-83511984CA1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D5A0843-D045-4AC5-BCAB-83511984CA1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D5A0843-D045-4AC5-BCAB-83511984CA1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D5A0843-D045-4AC5-BCAB-83511984CA1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{826507FA-68D8-410E-8448-702B19280F3A} = {2B6A161B-3F7E-4672-A32C-709E9B2CFA3A}
+		{9D5A0843-D045-4AC5-BCAB-83511984CA1E} = {77EDA32E-6E1C-4206-953D-A143CF806F54}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5056957E-C3BD-41C1-AAEE-AA8565A33BC2}
